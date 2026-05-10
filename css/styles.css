@@ -1,0 +1,62 @@
+:root {
+  --primary: #2f5dff;
+  --secondary: #1a1f44;
+  --surface: #f8f9ff;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #f4f7ff;
+  color: #2a2a2a;
+  font-family: 'Inter', system-ui, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, rgba(47,93,255,0.9), rgba(84,70,255,0.9));
+}
+
+.hero-section h1, .hero-section p {
+  color: #fff;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.property-card:hover {
+  transform: translateY(-3px);
+  transition: transform 0.2s ease;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.badge-secondary {
+  background-color: #eef1ff;
+  color: #3b4a8f;
+}
+
+footer {
+  background: #0c1635;
+}
+
+.listing-section .card {
+  min-height: 100%;
+}
+
+@media (max-width: 767px) {
+  .hero-section {
+    text-align: center;
+  }
+}

@@ -1,0 +1,4 @@
+# Admin Login
+
+email:  admin@gmail.com
+password: password
